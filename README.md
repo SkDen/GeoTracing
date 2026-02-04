@@ -83,7 +83,7 @@ pip install geotracing
 **Способ 2: Установка из исходного кода**
 ```bash
 # Клонирование репозитория
-git clone https://github.com/yourusername/geotracing.git
+git clone https://github.com/SkDen/GeoTracing.git
 cd geotracing
 
 # Установка зависимостей
