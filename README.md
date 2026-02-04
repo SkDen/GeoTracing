@@ -84,7 +84,7 @@ pip install geotracing
 ```bash
 # Клонирование репозитория
 git clone https://github.com/SkDen/GeoTracing.git
-cd geotracing
+cd GeoTracing
 
 # Установка зависимостей
 pip install -r requirements.txt
