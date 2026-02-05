@@ -1,3 +1,7 @@
 {
-    "python.analysis.autoImportCompletions": false
+    "python.analysis.autoImportCompletions": false,
+    "problems.autoReveal": true,
+    "problems.defaultViewMode": "table",
+    "problems.decorations.enabled": true,
+    "problems.showCurrentInStatus": false,
 }
