@@ -8,7 +8,7 @@ from ImageConstruction import PanoramicSkySphereRenderer, InterpolationMethod
 def file_chek(point_status: np.ndarray):
     # Проверяем массив данных
     file = point_status.reshape(-1, 8)
-    np.savetxt('GeodesicEquations\\full_array.txt', file, delimiter='\t', encoding='utf-8', fmt='%.3f')
+    np.savetxt('full_array.txt', file, delimiter='\t', encoding='utf-8', fmt='%.3f')
 
 if __name__ == "__main__":
     # file_rays = "file_array_best\\WormHole.npz"
@@ -30,8 +30,8 @@ if __name__ == "__main__":
 
     renderer_lanczos = PanoramicSkySphereRenderer(
         point_status_2d, point_flag_2d, 
-        panorama_path="GeodesicEquations\\SkySpheres\\metro_noord_2k.png",
-        panorama_another_path="GeodesicEquations\\SkySpheres\\limpopo_golf_course_2k.png",
+        panorama_path="SkySpheres\\metro_noord_2k.png",
+        panorama_another_path="SkySpheres\\limpopo_golf_course_2k.png",
         interpolation_method=InterpolationMethod.LANCZOS
     )
 

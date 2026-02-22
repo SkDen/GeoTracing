@@ -65,14 +65,14 @@ if __name__ == "__main__":
                                             a=L/2,
                                             m=m,
                                             dtype=np.float64,
-                                            save_path="GeodesicEquations\\file_array\\full_array",
+                                            save_path="file_array\\full_array",
                                             return_results=True
                                             )
 
         renderer_lanczos = PanoramicSkySphereRenderer(
             point, flag, 
-            panorama_path="GeodesicEquations\\SkySpheres\\metro_noord_2k.png",
-            panorama_another_path="GeodesicEquations\\SkySpheres\\limpopo_golf_course_2k.png",
+            panorama_path="SkySpheres\\metro_noord_2k.png",
+            panorama_another_path="SkySpheres\\limpopo_golf_course_2k.png",
             interpolation_method=InterpolationMethod.LANCZOS
         )
         # Построение изображений
