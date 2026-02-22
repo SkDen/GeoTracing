@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="res/ico/Horizon.svg" alt="Horizon Logo" width="120"/>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python" alt="Python">
   <img src="https://img.shields.io/badge/OpenCL-acceleration-purple?logo=opencl" alt="OpenCL">
   <img src="https://img.shields.io/badge/Physics-GR-orange" alt="General Relativity">
