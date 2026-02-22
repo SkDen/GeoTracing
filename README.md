@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="res/ico/Horizon.svg" alt="Horizon Logo" width="120"/>
+  <img src="res/ico/Horizon.svg" alt="Horizon Logo" width="160"/>
 </p>
 
 <p align="center">
