@@ -5,15 +5,15 @@
 
 import numpy as np
 
-from memory_profiler import profile
+from memory_profiler    import profile
 
-from enums import MetricType, VectorType, CoordinatesType
-from vector4 import Vector4
-from metric import Metric
-from camera import Camera
-from OpenClLoader import OpenClKernelLoader, OpenClKernelLoaderTracing
-from visualizer import TrajectoryVisualizer, TrajectoryAnimator
-from ImageConstruction import PanoramicSkySphereRenderer, InterpolationMethod
+from enums              import MetricType, VectorType, CoordinatesType
+from vector4            import Vector4
+from metric             import Metric
+from camera             import Camera
+from OpenClLoader       import OpenClKernelLoader, OpenClKernelLoaderTracing
+from visualizer         import TrajectoryVisualizer, TrajectoryAnimator
+from ImageConstruction  import PanoramicSkySphereRenderer, InterpolationMethod
 
 
 def simple_progress_callback(current_frame, total_frames):

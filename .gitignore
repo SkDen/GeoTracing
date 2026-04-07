@@ -1,0 +1,5 @@
+.vs/
+.github/
+src/__pycache__/
+translator_C-OpenCL/
+План_для_транслятора.txt
