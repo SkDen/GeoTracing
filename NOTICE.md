@@ -2,7 +2,7 @@
 
 ## GeoTracing
 Copyright © 2024 Бухтуев Денис Андреевич
-Лицензия: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+Лицензия: BSD 3-Clause
 Исходный код: https://github.com/yourusername/geotracing
 
 ## Сторонние компоненты
