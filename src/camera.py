@@ -1,10 +1,11 @@
 
 import math
 import numpy as np
+from tqdm import tqdm
+
 from enums import MetricType
 from metric import Metric
 from vector4 import Vector4
-from tqdm import tqdm
 
 class Camera:
     def __init__(self, width=10, height=10, focus=1.0, aspect_ratio_inv=False, metric=Metric(MetricType.SCHWARZSCHILD)):

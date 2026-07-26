@@ -1,6 +1,7 @@
 
 import numpy as np
 from enums import MetricType
+
 from vector4 import Vector4
 
 class Metric:

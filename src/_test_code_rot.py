@@ -3,6 +3,8 @@ import time
 
 
 from enums import MetricType, VectorType
+
+
 from vector4 import Vector4
 from metric import Metric
 from camera import Camera

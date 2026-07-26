@@ -415,4 +415,6 @@ GeoTracing распространяется под лицензией BSD 3-Clau
 
 Полный текст лицензии: [LICENSE](LICENSE)
 
+Лицензии зависимостей: [Dependency_LICENSE](NOTICE.md)
+
 ---
